@@ -18,7 +18,7 @@ class Morse:
     Class representing Morse code.
     """
 
-    def __int__(self, text: str, code: str) -> None:
+    def __init__(self, text: str = '', code: str = '') -> None:
         """
         Initializes the Morse object.
 
